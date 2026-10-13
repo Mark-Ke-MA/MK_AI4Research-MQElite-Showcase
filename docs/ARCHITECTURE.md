@@ -1,5 +1,7 @@
 # 架构与职责边界
 
+**中文** | [English](../docs_en/ARCHITECTURE.md)
+
 ```mermaid
 flowchart LR
     R[Router 权威主会话历史] --> S[选择有覆盖证据的主会话区间]

@@ -1,5 +1,7 @@
 # 源码继承声明
 
+**中文** | [English](../docs_en/SOURCE_NOTICES.md)
+
 以下原有 MIT 声明适用于 `src/mqelite/` 下的源码，以及下列源测试的复制或衍生部分：
 
 - `tests/test_time_window.py`

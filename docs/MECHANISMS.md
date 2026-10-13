@@ -1,5 +1,7 @@
 # 核心机制与取舍
 
+**中文** | [English](../docs_en/MECHANISMS.md)
+
 ## 1. 先判断日期，再下载正文
 
 [DurablePollingSource](../src/mqelite/codex/source.py) 先用 `itemsView="notLoaded"` 调用 `thread/turns/list`，保留 turn 身份、生命周期状态和时间戳；再沿服务端返回的不透明游标读取开始或完成时间可能落入所需区间的 turn 正文。元数据清单在读取器内部缓存。
